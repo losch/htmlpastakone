@@ -16,7 +16,7 @@ repository and upload it to your web server.
 
 ## Usage
 
-1. Open the pastakone.html file in your web browser.
+1. Open the index.html file in your web browser.
 2. Add your code snippet to the editor.
 3. Click the "Share" button to generate a URL that can be shared with others.
 4. Share the generated URL with others to allow them to view your code snippet.
