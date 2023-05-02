@@ -9,6 +9,8 @@ parameters. There is no need for a database or backend.
 The tool can be easily installed by simply dropping it into a web server
 that can serve an HTML page.
 
+[Demo](https://losch.github.io/htmlpastakone/)
+
 ## Installation
 
 To install Pastakone, simply download the pastakone.html file from the
