@@ -254,14 +254,46 @@
     <div id="editor" style="height: 500px; width: 100%; margin-bottom: 16px;"></div>
 
     <div>
-        <button id="share-button" onclick="saveContents()">Share</button>
-        <button id="new-button" onclick="document.getElementById('clear-dialog').showModal()">New</button>
+        <button id="share-button" onclick="saveContents()">
+            <svg id="SVGRoot" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -3px;" shape-rendering="auto">
+                <g fill="none" stroke="#fff" stroke-width="1.25">
+                    <ellipse cx="4.09" cy="3.1043" rx="2.5191" ry="2.4817"/>
+                    <ellipse cx="12.19" cy="7.5103" rx="2.5191" ry="2.4817"/>
+                    <ellipse cx="4.7265" cy="13.034" rx="2.5191" ry="2.4817"/>
+                    <path d="m6.9579 11.842 3.4304-2.6004"/>
+                    <path d="m10.127 6.003-3.7932-1.8844"/>
+                </g>
+            </svg>
+            Share
+        </button>
+        <button id="new-button" onclick="document.getElementById('clear-dialog').showModal()">
+            <svg id="SVGRoot" width="18px" height="18px" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -4px;" shape-rendering="auto">
+                <g fill="none" stroke="#fff">
+                    <path d="m3.9768 7.5621 7.0532 0.017425" stroke-width="1"/>
+                    <path d="m7.5225 11.006-0.072964-7.0037" stroke-width="1"/>
+                    <path d="m0.54818 0.54599 14.923 0.014604 0.031937 11.946-2.9979 3.0191-11.957-0.022941z" stroke-width="1.5"/>
+                </g>
+            </svg>
+            New
+        </button>
     </div>
 
     <dialog id="share-dialog">
       <label for="shared-url">Link to the code:</label>
       <input type="text" id="shared-url" readonly>
-      <button id="copy-btn">Copy to clipboard</button>
+      <button id="copy-btn">
+          <svg id="SVGRoot" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -4px;" shape-rendering="auto">
+              <g fill="none" stroke="#fff">
+                  <path d="m0.52774 15.569 8.8764 0.02545 0.05425-11.221-8.9059 0.059116z"/>
+                  <path d="m7.4929 6.4762"/>
+                  <path d="m2.5496 7.6234 4.9385-0.018912"/>
+                  <path d="m2.6297 12.477 4.7696 0.02129"/>
+                  <path d="m2.762 9.9627 4.5582 0.029044"/>
+                  <path d="m5.54 4.3394 0.011292-3.8587 9.8347 0.045034-0.01778 10.083-5.7808 0.0055"/>
+              </g>
+          </svg>
+          Copy to clipboard
+      </button>
     </dialog>
 
     <dialog id="clear-dialog">
