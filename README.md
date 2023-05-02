@@ -13,7 +13,7 @@ that can serve an HTML page.
 
 ## Installation
 
-To install Pastakone, simply download the pastakone.html file from the
+To install Pastakone, simply download the index.html file from the
 repository and upload it to your web server.
 
 ## Usage
